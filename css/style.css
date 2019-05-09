@@ -1,0 +1,204 @@
+*{
+margin: 0;
+padding: 0;
+}
+.body{
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
+}
+.ptb-100{
+    padding: 100px 0;
+}
+.mb{
+    margin-bottom: 30px;
+}
+
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+/*======== Header start ========*/
+.header{
+   position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+.logo{
+    width: 20%;
+    float: left; 
+}
+.logo img {
+    margin-top: 50px;
+}
+.main_menu{
+    width: 60%;
+   float: right;
+}
+.main_menu ul {
+   float: right;
+}
+
+.main_menu ul li {
+    list-style: none;
+    display: inline-block;
+    
+}
+
+.main_menu ul li a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    padding: 50px 25px;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .5s;
+}
+.main_menu ul li a:hover{
+    color: #7690c5;
+}
+/*======== Header end ========*/
+
+/*=========Banner Start =======*/
+.banner{
+    background-image: url(../images/Escape.jpg);
+}
+.banner_content {
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 120px;
+}
+.banner_content span {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 300;
+}
+.banner_content h2 {
+    color: #fff;
+    font-size: 66px;
+    font-weight: 700;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+.btn {
+    color: #fff;
+    text-decoration: none;
+    font-size: 23px;
+    border: 2px solid #fff;
+    padding: 20px 50px;
+    transition: .5s;
+}
+.btn:hover{
+    background: #7690c5;
+    border: 2px solid #7690c5;
+}
+/*=========Banner Start =======*/
+
+/*========== Devlopment Start ===============*/
+.develpoment_branding{
+   
+}
+.web_content{
+    width: 70%;
+    float: left;
+    overflow: hidden;
+}
+.development_content{
+    width: 20%;
+    float: right;
+}
+.web_content h2 {
+    color: #222;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.web_content p {
+    font-size: 18px;
+    line-height: 24px;
+}
+.web_content span {
+    font-weight: 300;
+}
+.development_content img {
+    width: 100%;
+}
+/*========== Devlopment Start ===============*/
+
+/*========== Branding Start ==========*/
+
+.identy_content{
+    width: 20%;
+    float: left;
+}
+.identy_content img{
+    width: 100%;
+}
+.branding_contnet{
+    width: 70%;
+    float: right;
+}
+.branding_contnet h2 {
+    color: #222;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.branding_contnet p {
+    font-size: 18px;
+    line-height: 24px;
+}
+.branding_contnet span {
+    font-weight: 300;
+}
+/*========== Branding Start ==========*/
+
+/*============ Service Start ============*/
+.service_warpper1{
+    width: 48%;
+    float: left;
+}
+.service_warpper2{
+    width: 48%;
+    float: right;
+}
+.service_icon {
+    background: #222222;
+    width: 15%;
+    float: left;
+    border: 1px solid #222222;
+    border-radius: 100%;
+    text-align: center;
+    display: inline-block;
+    padding: 20px 5px;
+    margin-right: 15px;
+    transition: .5s;
+}
+.service_icon:hover{
+    background: #7690c5;
+    border: 1px solid #7690c5;
+}
+.service_content{
+    width: 85%;
+}
+.service_content h4 {
+    color: #222222;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.service_content p {
+    font-size: 18px;
+    line-height: 24px;
+}
+/*============ Service end ============*/
+
